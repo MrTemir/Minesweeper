@@ -100,7 +100,7 @@ Each `Cell` represents a single square on the game board. It contains the follow
    Game Over!
    ```
 
-   ![Game Over](image_placeholder.png) <!-- Insert a screenshot of game over state -->
+   ![Game Over](images/Screenshot 2025-03-17 163648.png) <!-- Insert a screenshot of game over state -->
 
 6. **Winning**:
    ```
