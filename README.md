@@ -48,24 +48,27 @@ Each `Cell` represents a single square on the game board. It contains the follow
 1. **Game Initialization**: The game starts with the player choosing a difficulty level.
 2. **Displaying the Board**: Initially, the board is displayed with all cells hidden. The board is updated after each move.
    
-   ![Initial Board](image_placeholder.png) <!-- Insert a screenshot of the initial game board -->
+   ![Initial Board](images/HiddenBoard.png)
    
 3. **Entering Commands**: The player enters commands to either open a cell or flag it. For example:
    
    ```
    o 3 4  // Open cell at row 3, column 4
+   ```
+   ![Command Input](images/O34.png)
+
+   ```
    f 5 6  // Flag cell at row 5, column 6
    ```
+   ![Command Input](images/F56.png)
    
-   ![Command Input](image_placeholder.png) <!-- Insert a screenshot of the command input -->
+5. **Handling Cell Opening**: When a player opens a cell, if it contains a mine, the game ends with a message saying "BOOM! You lost."
 
-4. **Handling Cell Opening**: When a player opens a cell, if it contains a mine, the game ends with a message saying "BOOM! You lost."
+   ![Mine Hit](images/GameOver.png)
 
-   ![Mine Hit](image_placeholder.png) <!-- Insert a screenshot of a game over state -->
+6. **Winning the Game**: The game checks for a win condition after each move. The win condition is met when all non-mined cells are opened. If the player finds all mines and opens all safe cells, the game congratulates the player.
 
-5. **Winning the Game**: The game checks for a win condition after each move. The win condition is met when all non-mined cells are opened. If the player finds all mines and opens all safe cells, the game congratulates the player.
-
-   ![Win State](image_placeholder.png) <!-- Insert a screenshot of the win state -->
+   ![Win State](image_placeholder.png)
 
 ---
 
@@ -100,15 +103,14 @@ Each `Cell` represents a single square on the game board. It contains the follow
    Game Over!
    ```
 
-   ![Game Over](images/Screenshot025-03-17163648.png) <!-- Insert a screenshot of game over state -->
+   ![Game Over](images/Screenshot025-03-17163648.png)
 
 6. **Winning**:
    ```
    Congratulations! You found all the mines and won!
    ```
 
-   ![Victory](image_placeholder.png) <!-- Insert a screenshot of the victory state -->
-
+   ![Victory](image_placeholder.png) 
 ---
 
 ## Conclusion
@@ -120,4 +122,3 @@ This Minesweeper game provides a fun and interactive experience for players to t
 
 --- 
 
-You can insert screenshots of the game at each stage (initial board, command input, game over, and victory) in place of the `image_placeholder.png` text to provide visual clarity.
