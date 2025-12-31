@@ -1,4 +1,4 @@
-# Documentation for the "Minesweeper" Game in Java
+# Documentation for the "Minesweeper" Game
 
 ## Introduction
 The "Minesweeper" game is a classic logic game where the objective is to uncover all the cells on the board without triggering a mine. The player can flag cells to mark potential mines and open cells to discover how many mines are adjacent to them.
